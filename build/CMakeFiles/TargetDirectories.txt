@@ -1,0 +1,6 @@
+C:/Users/Алиса/source/repos/lab3-aliisakas/build/CMakeFiles/memory_leak.dir
+C:/Users/Алиса/source/repos/lab3-aliisakas/build/CMakeFiles/unique_ptr.dir
+C:/Users/Алиса/source/repos/lab3-aliisakas/build/CMakeFiles/shared_ptr.dir
+C:/Users/Алиса/source/repos/lab3-aliisakas/build/CMakeFiles/weak_ptr.dir
+C:/Users/Алиса/source/repos/lab3-aliisakas/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Алиса/source/repos/lab3-aliisakas/build/CMakeFiles/ZERO_CHECK.dir

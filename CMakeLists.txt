@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
-project(Lab3)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -g")
+project(Lab3 LANGUAGES CXX)
 
-add_executable(memory_leak memory_leak.cpp)
-add_executable(unique_ptr unique_ptr.cpp)
-add_executable(shared_ptr shared_ptr.cpp)
-add_executable(weak_ptr weak_ptr.cpp)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(memory_leak src/memory_leak.cpp)
+add_executable(unique_ptr src/unique_ptr.cpp)
+add_executable(shared_ptr src/shared_ptr.cpp)
+add_executable(weak_ptr src/weak_ptr.cpp)
